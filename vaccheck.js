@@ -29,20 +29,32 @@ javascript:(function(){
         lookup[id].push(friend);
     });
 
-    function setVacation(id, numberOfBans, daysSinceLastBan) {
-        var friendElements = lookup[id];
+    function setVacation(player) {
+        var friendElements = lookup[player.SteamId];
 
         friendElements.forEach(function(friend) {
             var span = document.createElement('span');
             span.style.fontWeight = 'bold';
             span.style.display = 'block';
 
-            if (numberOfBans) {
+            if (player.NumberOfVACBans || player.NumberOfGameBans) {
+                var text = '';
+
+                if (player.NumberOfGameBans) {
+                    text += player.NumberOfGameBans + ' OW bans';
+                }
+
+                if (player.NumberOfVACBans) {
+                    text += (text === '' ? '' : ', ') +
+                        player.NumberOfVACBans + ' VAC bans';
+                }
+                text += ' ' + player.DaysSinceLastBan + ' days ago.';
+
                 span.style.color = 'rgb(255, 73, 73)';
-                span.innerHTML = numberOfBans + ' VAC bans ' + daysSinceLastBan + ' days ago.';
+                span.innerHTML = text;
             } else {
                 span.style.color = 'rgb(43, 203, 64)';
-                span.innerHTML = 'No VAC Bans for this player.';
+                span.innerHTML = 'No Bans for this player.';
             }
 
             friend.querySelector('.friendSmallText').appendChild(span);
@@ -52,9 +64,7 @@ javascript:(function(){
     function onData(xmlHttp) {
         if (xmlHttp.readyState === XMLHttpRequest.DONE && xmlHttp.status === 200) {
             var data = JSON.parse(xmlHttp.responseText);
-            data.players.forEach(function(player) {
-                setVacation(player.SteamId, player.NumberOfVACBans, player.DaysSinceLastBan);
-            });
+            data.players.forEach(setVacation);
         }
     }
 
