@@ -4,7 +4,7 @@
 2. Select all (ctrl + a)
 3. Copy (ctrl + c)
 4. Bookmark this (or any) page.
-5. Right click your new bookmark and edit it. In the **URL** or **Location** field, paste the contents of vaccheck.min.js. You can rename the name too.
+5. Right click your new bookmark and edit it. In the **URL** or **Location** field, paste the contents of vaccheck.js. You can rename the name too.
 6. Navigate to your [friends recently played with](http://steamcommunity.com/my/friends/coplay) page. (You could probably bookmark that too :wink:)
 7. Click the bookmarklet and it will use the Steam API to get a list of VAC bans for those users on that page.
 
