@@ -1,5 +1,4 @@
 javascript:(function(){
-    //Statements returning a non-undefined type, e.g. assignments
     var friends = [].slice.call(document.querySelectorAll('.friendCheckbox2'));
 
     friends.forEach(function(friend) {
