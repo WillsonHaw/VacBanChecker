@@ -15,6 +15,13 @@ javascript:(function(){
                     span.style.fontWeight = 'bold';
                     span.innerHTML = data.players[0].NumberOfVACBans + ' VAC bans ' + data.players[0].DaysSinceLastBan + ' days ago.';
                     friend.parentNode.parentNode.querySelector('.friendSmallText').appendChild(span);
+                }else{
+                    var span = document.createElement('span');
+                    span.style.display = 'block';
+                    span.style.color = 'rgb(43, 203, 64)';
+                    span.style.fontWeight = 'bold';
+                    span.innerHTML = 'No VAC Bans for this player.';
+                    friend.parentNode.parentNode.querySelector('.friendSmallText').appendChild(span);
                 }
             }
         };
