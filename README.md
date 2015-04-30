@@ -8,8 +8,9 @@
 6. Navigate to your [friends recently played with](http://steamcommunity.com/my/friends/coplay) page. (You could probably bookmark that too :wink:)
 7. Click the bookmarklet and it will use the Steam API to get a list of VAC bans for those users on that page.
 
-Pro tip: This bookmarklet also works under the other tabs on that page, including the "All Friends" tab!
+Pro tip: This bookmarklet also works under the other tabs on that page, including the "All Friends" tab! And it also
+works on your friend's friends list! Just go to their profile page, click "Friends" on the right panel, and use the bookmarklet to see their friend's vac bans!
 
 # Credits
 
-All credits go out to [iEyepawd](http://www.reddit.com/user/iEyepawd) from this [reddit post](http://www.reddit.com/r/GlobalOffensive/comments/348292/i_made_a_userscript_to_easily_show_vac_bans_on/). His idea inspired me to write a version that can be easily used as a bookmarklet.
+Credits go out to [iEyepawd](http://www.reddit.com/user/iEyepawd) from this [reddit post](http://www.reddit.com/r/GlobalOffensive/comments/348292/i_made_a_userscript_to_easily_show_vac_bans_on/). His idea inspired me to write a version that can be easily used as a bookmarklet.
