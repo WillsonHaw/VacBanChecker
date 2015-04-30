@@ -86,7 +86,7 @@ javascript:(function(){
                 span.innerHTML = text;
             } else {
                 span.style.color = 'rgb(43, 203, 64)';
-                span.innerHTML = player.SteamId + 'No Bans for this player.';
+                span.innerHTML = 'No Bans for this player.';
             }
 
             friend.querySelector('.friendSmallText').appendChild(span);
