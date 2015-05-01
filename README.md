@@ -11,6 +11,10 @@
 Pro tip: This bookmarklet also works under the other tabs on that page, including the "All Friends" tab! And it also
 works on your friend's friends list! Just go to their profile page, click "Friends" on the right panel, and use the bookmarklet to see their friend's vac bans!
 
+### How to install: visual instructions
+
+![Instructions](https://raw.githubusercontent.com/MrHayato/VacBanChecker/master/instructions.gif)
+
 # Credits
 
 Credits go out to [iEyepawd](http://www.reddit.com/user/iEyepawd) from this [reddit post](http://www.reddit.com/r/GlobalOffensive/comments/348292/i_made_a_userscript_to_easily_show_vac_bans_on/). His idea inspired me to write a version that can be easily used as a bookmarklet.
