@@ -15,6 +15,12 @@ works on your friend's friends list! Just go to their profile page, click "Frien
 
 ![Instructions](https://raw.githubusercontent.com/MrHayato/VacBanChecker/master/instructions.gif)
 
+# Changelog
+
+### v1.0.0 - May 1st 2015
+
+Added groups support! To use, visit a group page, click on "View All" under the group members section, and run the bookmarklet to see who in the group has been VAC/OW banned!
+
 # Credits
 
 Credits go out to [iEyepawd](http://www.reddit.com/user/iEyepawd) from this [reddit post](http://www.reddit.com/r/GlobalOffensive/comments/348292/i_made_a_userscript_to_easily_show_vac_bans_on/). His idea inspired me to write a version that can be easily used as a bookmarklet.
