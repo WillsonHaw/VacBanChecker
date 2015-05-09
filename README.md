@@ -17,6 +17,10 @@ works on your friend's friends list! Just go to their profile page, click "Frien
 
 # Changelog
 
+### v1.0.1 - May 9th 2015
+
+Updated API key
+
 ### v1.0.0 - May 1st 2015
 
 Added groups support! To use, visit a group page, click on "View All" under the group members section, and run the bookmarklet to see who in the group has been VAC/OW banned!
