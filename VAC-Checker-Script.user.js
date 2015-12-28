@@ -8,7 +8,6 @@
 // @github       https://github.com/MrHayato/VacBanChecker
 // @match        http://steamcommunity.com/*/friends/coplay*
 // @match        https://steamcommunity.com/*/friends/coplay*
-// @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js
 // @updateURL    https://github.com/MrHayato/VacBanChecker
 // @grant        none
 
