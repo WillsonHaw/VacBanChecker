@@ -8,7 +8,7 @@
 // @github       https://github.com/MrHayato/VacBanChecker
 // @match        http://steamcommunity.com/*/friends/coplay*
 // @match        https://steamcommunity.com/*/friends/coplay*
-// @updateURL    https://github.com/MrHayato/VacBanChecker
+// @updateURL    https://github.com/MrHayato/VacBanChecker/VAC-Checker-Script.user.js
 // @grant        none
 
 // ==/UserScript==
