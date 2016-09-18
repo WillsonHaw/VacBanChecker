@@ -1,11 +1,10 @@
 // ==UserScript==
 // @name         VacChecker
-// @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
-// @author       VitoTheWolf
-// @match        http://steamcommunity.com/id/*, http://steamcommunity.com/profile/*
-// @grant        none
+// @description  Shows vac bans underneath players on steam
+// @author       Levitas / Wilson Haw
+// @include      http://steamcommunity.com/id/*
+// @include      http://steamcommunity.com/profiles/*
 // ==/UserScript==
 
 (function() {
