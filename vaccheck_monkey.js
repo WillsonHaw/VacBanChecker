@@ -1,17 +1,8 @@
-// ==UserScript==
-// @name         VacChecker
-// @version      0.1
-// @description  Shows vac bans underneath players on steam
-// @author       Levitas / Wilson Haw
-// @include      http://steamcommunity.com/id/*
-// @include      http://steamcommunity.com/profiles/*
-// ==/UserScript==
-
-// ==UserScript==
+// ==UserScript== 
 // @version         1.0
 // @name            VacChecker
 // @namespace       https://github.com/VacBanChecker
-// @description  Shows vac bans underneath players on steam
+// @description  	Shows vac bans underneath players on steam
 // @match      		http://steamcommunity.com/id/*
 // @match      		http://steamcommunity.com/profiles/*
 // @homepageURL     https://github.com/Levitas/VacBanChecker
