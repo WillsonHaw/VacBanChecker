@@ -3,10 +3,10 @@
 // @name            VacChecker
 // @namespace       https://github.com/VacBanChecker
 // @description  	Shows vac bans underneath players on steam
-// @include     	http://steamcommunity.com/id/*
-// @include     	http://steamcommunity.com/profiles/*
-// @include     	https://steamcommunity.com/id/*
-// @include     	https://steamcommunity.com/profiles/*
+// @match     		http://steamcommunity.com/id/*
+// @match     		http://steamcommunity.com/profiles/*
+// @match     		https://steamcommunity.com/id/*
+// @match     		https://steamcommunity.com/profiles/*
 // @homepageURL     https://github.com/Levitas/VacBanChecker
 // @noframes
 // ==/UserScript==
