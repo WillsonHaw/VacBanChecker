@@ -1,4 +1,5 @@
-# How to use
+# How to Use
+(See the next section for **visual instructions**)
 
 1. Open and view the raw code for [vaccheck.min.js](https://raw.githubusercontent.com/MrHayato/VacBanChecker/master/vaccheck.min.js).
 2. Select all the raw code (`Ctrl + A`).
@@ -11,7 +12,7 @@
 Pro Tip: 
 This bookmarklet also works under the other tabs on that page, including the "All Friends" tab! And it also works on your friend's friends list! Just go to their profile page, click "Friends" on the right panel, and use the bookmarklet to see their friend's vac bans!
 
-### How to install: visual instructions
+### How to Install: Visual Instructions
 
 ![Instructions](https://raw.githubusercontent.com/MrHayato/VacBanChecker/master/instructions.gif)
 
