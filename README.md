@@ -1,6 +1,7 @@
 # VacBanChecker
 VanBanChecker provides an easy and handy way to check which player has been banned by Valve Anti-Cheat (VAC). 
 [VAC]( https://support.steampowered.com/kb_article.php?p_faqid=370#vacgames) is an automated system used to detect cheats installed on a user’s computer. To maintain the integrity of games on Steam, users banned by VAC are banned from playing certain games.
+
 Use VacBanChecker to help you to find out if there is a cheater on your team!
 
 
