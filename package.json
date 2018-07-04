@@ -1,0 +1,22 @@
+{
+  "name": "vacbanchecker",
+  "version": "1.0.0",
+  "description": "A bookmarklet to quickly check if somebody is VAC banned on the steam community pages",
+  "main": "vaccheck.min.js",
+  "scripts": {
+    "build": "node src/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillsonHaw/VacBanChecker.git"
+  },
+  "author": "Willson Haw (willsonhaw@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrHayato/VacBanChecker/issues"
+  },
+  "homepage": "https://github.com/MrHayato/VacBanChecker#readme",
+  "devDependencies": {
+    "uglify-js": "^3.4.3"
+  }
+}
