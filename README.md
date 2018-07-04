@@ -1,15 +1,15 @@
 # How to use
 
-1. Open view the raw code for [vaccheck.min.js](https://raw.githubusercontent.com/MrHayato/VacBanChecker/master/vaccheck.min.js).
-2. Select all (ctrl + a)
-3. Copy (ctrl + c)
-4. Bookmark this (or any) page.
-5. Right click your new bookmark and edit it. In the **URL** or **Location** field, paste the contents of [vaccheck.min.js](https://raw.githubusercontent.com/MrHayato/VacBanChecker/master/vaccheck.min.js). You can rename the name too.
-6. Navigate to your [friends recently played with](http://steamcommunity.com/my/friends/coplay) page. (You could probably bookmark that too :wink:)
+1. Open and view the raw code for [vaccheck.min.js](https://raw.githubusercontent.com/MrHayato/VacBanChecker/master/vaccheck.min.js).
+2. Select all the raw code (`Ctrl + A`).
+3. Copy all the selected raw code (`Ctrl + C`, or right-click and select `Copy`).
+4. Bookmark this page.
+5. Edit the URL of the bookmark by right-clicking the new bookmark and selecting `Edit`. In the **URL** or **Location** field, paste the contents of [vaccheck.min.js](https://raw.githubusercontent.com/MrHayato/VacBanChecker/master/vaccheck.min.js) that are copied in the step 3. You can change the **Name** field of the bookmark too, such as "Vac Checker"!
+6. Navigate to [your friend's Recently Played With](http://steamcommunity.com/my/friends/coplay) page on [Steam](https://steamcommunity.com/). (You could probably bookmark that too! :wink:)
 7. Click the bookmarklet and it will use the Steam API to get a list of VAC bans for those users on that page.
 
-Pro tip: This bookmarklet also works under the other tabs on that page, including the "All Friends" tab! And it also
-works on your friend's friends list! Just go to their profile page, click "Friends" on the right panel, and use the bookmarklet to see their friend's vac bans!
+Pro Tip: 
+This bookmarklet also works under the other tabs on that page, including the "All Friends" tab! And it also works on your friend's friends list! Just go to their profile page, click "Friends" on the right panel, and use the bookmarklet to see their friend's vac bans!
 
 ### How to install: visual instructions
 
